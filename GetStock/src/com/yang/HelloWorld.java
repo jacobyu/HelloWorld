@@ -260,7 +260,7 @@ public class HelloWorld
         //PrintHtml();
         Map<String, String> mapStock = new HashMap<String, String>();
         readStock(new String("E:\\workspace\\GetStock\\src\\com\\yang\\stock.txt"), mapStock);
-        System.out.println("map stock: " + mapStock.toString());
+        System.out.println("map   stock: " + mapStock.toString());
         
         String strOutput = new String("E:\\workspace\\GetStock\\src\\com\\yang\\statis.txt");
         try
